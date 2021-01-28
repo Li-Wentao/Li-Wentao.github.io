@@ -12,7 +12,7 @@ github_repo: "https://github.com/Li-Wentao/Li-Wentao.github.io" # you code repos
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Success Is Never Final and Failure Never Fatal. It’s Courage That Counts."
-sidebar-avatar: /img/avatar-by.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/wentao.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
