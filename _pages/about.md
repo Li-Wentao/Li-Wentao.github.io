@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 My name is Wentao (文韬 in Chinese), and I go with Winston. I am currently a PhD candidate in the School of Biomedical Informatics at University of Texas Health Science Center at Houston (UTHealth). And I am advised by Dr. [Xiaoqian Jiang](http://xiaoqianjiang.weebly.com/). 
 
-My research interest are the intersection of privacy-preserving machine learning and Genomewide Association Studies (GWASs).
+My research interest are the intersections of privacy-preserving machine learning and Genomewide Association Studies (GWASs).
 
 Prior to my PhD career, I have a MSc in Statstics at University of California, San Diego and a BS in Mathematics at Shanghai Maritime Univeristy.
 
