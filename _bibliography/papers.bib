@@ -3,95 +3,164 @@
 
 
 @article{huang_tutorial_2020,
-	title = {A tutorial on calibration measurements and calibration models for clinical prediction models},
-	volume = {27},
-	number = {4},
-	journal = {Journal of the American Medical Informatics Association},
-	author = {Huang, Yingxiang and Li, Wentao and Macheret, Fima and Gabriel, Rodney A. and Ohno-Machado, Lucila},
-	year = {2020},
-	note = {Publisher: Oxford University Press},
-	pages = {621--633},
-	annote = {A tutorial on calibration measurements and calibration models for clinical prediction models},
+	author = {Huang, Yingxiang and Li, Wentao and Macheret, Fima and Gabriel, Rodney A and Ohno-Machado, Lucila},
+    title = "{A tutorial on calibration measurements and calibration models for clinical prediction models}",
+    journal = {Journal of the American Medical Informatics Association},
+    volume = {27},
+    number = {4},
+    pages = {621-633},
+    year = {2020},
+    month = {02},
+    abstract = "{Our primary objective is to provide the clinical informatics community with an introductory tutorial on calibration measurements and calibration models for predictive models using existing R packages and custom implemented code in R on real and simulated data. Clinical predictive model performance is commonly published based on discrimination measures, but use of models for individualized predictions requires adequate model calibration. This tutorial is intended for clinical researchers who want to evaluate predictive models in terms of their applicability to a particular population. It is also for informaticians and for software engineers who want to understand the role that calibration plays in the evaluation of a clinical predictive model, and to provide them with a solid starting point to consider incorporating calibration evaluation and calibration models in their work.Covered topics include (1) an introduction to the importance of calibration in the clinical setting, (2) an illustration of the distinct roles that discrimination and calibration play in the assessment of clinical predictive models, (3) a tutorial and demonstration of selected calibration measurements, (4) a tutorial and demonstration of selected calibration models, and (5) a brief discussion of limitations of these methods and practical suggestions on how to use them in practice.}",
+    issn = {1527-974X},
+    doi = {10.1093/jamia/ocz228},
+    website = {https://doi.org/10.1093/jamia/ocz228},
+    eprint = {https://academic.oup.com/jamia/article-pdf/27/4/621/34153143/ocz228.pdf},
+	selected = {true},
+	dimensions = {true},
 }
 
-@article{dervishi_facilitating_2022,
-	title = {Facilitating federated genomic data analysis by identifying record correlations while ensuring privacy},
-	journal = {arXiv preprint arXiv:2203.05664},
-	author = {Dervishi, Leonard and Wang, Xinyue and Li, Wentao and Halimi, Anisa and Vaidya, Jaideep and Jiang, Xiaoqian and Ayday, Erman},
-	year = {2022},
-	annote = {Facilitating federated genomic data analysis by identifying record correlations while ensuring privacy},
+@misc{dervishi_facilitating_2022,
+  doi = {10.48550/ARXIV.2203.05664},
+  arxiv = {2203.05664},
+  pdf = {https://arxiv.org/pdf/2203.05664.pdf},
+  author = {Dervishi, Leonard and Wang, Xinyue and Li, Wentao and Halimi, Anisa and Vaidya, Jaideep and Jiang, Xiaoqian and Ayday, Erman},
+  keywords = {Cryptography and Security (cs.CR), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Facilitating Federated Genomic Data Analysis by Identifying Record Correlations while Ensuring Privacy},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license},
 }
+
+
+
 
 @article{harmanci_open_2021,
-	title = {Open imputation server provides secure {Imputation} services with provable genomic privacy},
-	journal = {bioRxiv},
 	author = {Harmanci, Arif O. and Kim, Miran and Wang, Su and Li, Wentao and Song, Yongsoo and Lauter, Kristin E. and Jiang, Xiaoqian},
+	title = {Open Imputation Server provides secure Imputation services with provable genomic privacy},
+	elocation-id = {2021.09.30.462262},
 	year = {2021},
-	note = {Publisher: Cold Spring Harbor Laboratory},
-	pages = {2021--09},
-	annote = {Open imputation server provides secure Imputation services with provable genomic privacy},
+	doi = {10.1101/2021.09.30.462262},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Summary As DNA sequencing data is available for personal use, genomic privacy is becoming a major challenge. Nevertheless, high-throughput genomic data analysis outsourcing is performed using pipelines that tend to overlook these challenges.Results We present a client-server-based outsourcing framework for genotype imputation, an important step in genomic data analyses. Genotype data is encrypted by the client and encrypted data are used by the server that never observes the data in plain. Cloud-based framework can benefit from virtually unlimited computational resources while providing provable confidentiality. We demonstrate server{\textquoteright}s utility from several aspects using genotype dataset from the 1000 Genomes datasets. First, we benchmark the accuracy of common variant imputation in comparison to BEAGLE, a state-of-the-art imputation method. We also provide the detailed time requirements of the server to showcase scaling of time usage in different steps of imputation. We also present a simple correlation metric that can be used to estimate imputation accuracy using only the reference panels. This is important for filtering the variants in downstream analyses. As a further demonstration and a different use case, we performed a simulated genomewide association study (GWAS) using imputed and known genotypes and highlight potential utility of the server for association studies. Overall, our study present multiple lines of evidence for usability of secure imputation service.Availability Server is publicly available at https://www.secureomics.org/OpenImpute. Users can anonymously test and use imputation server without registration.Contact Arif.O.Harmanci{at}uth.tmc.eduCompeting Interest StatementThe authors have declared no competing interest.},
+	website = {https://www.biorxiv.org/content/early/2021/10/01/2021.09.30.462262},
+	pdf = {https://www.biorxiv.org/content/early/2021/10/01/2021.09.30.462262.full.pdf},
+	journal = {bioRxiv}
 }
 
 @article{li_federated_2022,
 	title = {Federated learning algorithms for generalized mixed-effects model ({GLMM}) on horizontally partitioned data from distributed sources},
 	volume = {22},
+	issn = {1472-6947},
+	url = {https://doi.org/10.1186/s12911-022-02014-1},
+	doi = {10.1186/s12911-022-02014-1},
+	abstract = {This paper developed federated solutions based on two approximation algorithms to achieve federated generalized linear mixed effect models (GLMM). The paper also proposed a solution for numerical errors and singularity issues. And showed the two proposed methods can perform well in revealing the significance of parameter in distributed datasets, comparing to a centralized GLMM algorithm from R package (‘lme4’) as the baseline model.},
 	number = {1},
 	journal = {BMC Medical Informatics and Decision Making},
-	author = {Li, Wentao and Tong, Jiayi and Anjum, Md Monowar and Mohammed, Noman and Chen, Yong and Jiang, Xiaoqian},
+	author = {Li, Wentao and Tong, Jiayi and Anjum, Md. Monowar and Mohammed, Noman and Chen, Yong and Jiang, Xiaoqian},
+	month = oct,
 	year = {2022},
-	note = {Publisher: Springer},
 	pages = {269},
-	annote = {Federated learning algorithms for generalized mixed-effects model (GLMM) on horizontally partitioned data from distributed sources},
+	dimensions = {true},
+	selected = {true},
+	website = {https://link.springer.com/article/10.1186/s12911-022-02014-1},
 }
 
 @article{anjum_privacy_2022,
 	title = {Privacy preserving collaborative learning of generalized linear mixed model},
-	volume = {127},
 	journal = {Journal of Biomedical Informatics},
-	author = {Anjum, Md Monowar and Mohammed, Noman and Li, Wentao and Jiang, Xiaoqian},
-	year = {2022},
-	note = {Publisher: Elsevier},
+	volume = {127},
 	pages = {104008},
-	annote = {Privacy preserving collaborative learning of generalized linear mixed model},
+	year = {2022},
+	issn = {1532-0464},
+	dimensions = {true},
+	altmetric = {true},
+	doi = {https://doi.org/10.1016/j.jbi.2022.104008},
+	website = {https://www.sciencedirect.com/science/article/pii/S1532046422000247},
+	author = {Md. Monowar Anjum and Noman Mohammed and Wentao Li and Xiaoqian Jiang},
+	keywords = {Privacy preserving computation, Secure multi-party computation, Distribution modeling},
+	abstract = {Generalized Linear Mixed Model is one of the most pervasive class of statistical models. It is widely used in the medical domain. Training such models in a collaborative setting often entails privacy risks. Standard privacy preserving mechanisms such as differential privacy can be used to mitigate the privacy risk during training the model. However, experimental evidence suggests that adding differential privacy to the training of the model can cause significant utility loss which makes the model impractical for real world usage. Therefore, it becomes clear that the specific class of generalized linear mixed models which lose their usability under differential privacy requires a different approach for privacy preserving model training. In this work, we propose a value-blind training method in a collaborative setting for generalized linear mixed models. In our proposed training method, the central server optimizes model parameters for a generalized linear mixed model without ever getting access to the raw training data or intermediate computation values. Intermediate computation values that are shared by the collaborating parties with the central server are encrypted using homomorphic encryption. Experimentation on multiple datasets suggests that the model trained by our proposed method achieves very low error rate while preserving privacy. To the best of our knowledge, this is the first work that performs a systematic privacy analysis of generalized linear mixed model training in collaborative setting.}
 }
 
 @article{wang_privacy-aware_2022,
-	title = {Privacy-aware estimation of relatedness in admixed populations},
-	volume = {23},
-	number = {6},
-	journal = {Briefings in Bioinformatics},
 	author = {Wang, Su and Kim, Miran and Li, Wentao and Jiang, Xiaoqian and Chen, Han and Harmanci, Arif},
-	year = {2022},
-	note = {Publisher: Oxford Academic},
-	annote = {Privacy-aware estimation of relatedness in admixed populations},
+    title = "{Privacy-aware estimation of relatedness in admixed populations}",
+    journal = {Briefings in Bioinformatics},
+    volume = {23},
+    number = {6},
+    year = {2022},
+    month = {11},
+    abstract = "{Estimation of genetic relatedness, or kinship, is used occasionally for recreational purposes and in forensic applications. While numerous methods were developed to estimate kinship, they suffer from high computational requirements and often make an untenable assumption of homogeneous population ancestry of the samples. Moreover, genetic privacy is generally overlooked in the usage of kinship estimation methods. There can be ethical concerns about finding unknown familial relationships in third-party databases. Similar ethical concerns may arise while estimating and reporting sensitive population-level statistics such as inbreeding coefficients for the concerns around marginalization and stigmatization.Here, we present SIGFRIED, which makes use of existing reference panels with a projection-based approach that simplifies kinship estimation in the admixed populations. We use simulated and real datasets to demonstrate the accuracy and efficiency of kinship estimation. We present a secure federated kinship estimation framework and implement a secure kinship estimator using homomorphic encryption-based primitives for computing relatedness between samples in two different sites while genotype data are kept confidential. Source code and documentation for our methods can be found at https://doi.org/10.5281/zenodo.7053352.Analysis of relatedness is fundamentally important for identifying relatives, in association studies, and for estimation of population-level estimates of inbreeding. As the awareness of individual and group genomic privacy is growing, privacy-preserving methods for the estimation of relatedness are needed. Presented methods alleviate the ethical and privacy concerns in the analysis of relatedness in admixed, historically isolated and underrepresented populations.Genetic relatedness is a central quantity used for finding relatives in databases, correcting biases in genome wide association studies and for estimating population-level statistics. Methods for estimating genetic relatedness have high computational requirements, and occasionally do not consider individuals from admixed ancestries. Furthermore, the ethical concerns around using genetic data and calculating relatedness are not considered. We present a projection-based approach that can efficiently and accurately estimate kinship. We implement our method using encryption-based techniques that provide provable security guarantees to protect genetic data while kinship statistics are computed among multiple sites.}",
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbac473},
+    url = {https://doi.org/10.1093/bib/bbac473},
+	website = {https://academic.oup.com/bib/article-abstract/23/6/bbac473/6831007},
+    pdf = {https://academic.oup.com/bib/article-pdf/23/6/bbac473/47144100/bbac473.pdf},
+	dimensions = {true},
+	altmetric = {true},
 }
 
 @article{li_federated_2022-1,
-	title = {Federated {Generalized} {Linear} {Mixed} {Models} for {Collaborative} {Genome}-wide {Association} {Studies}},
-	journal = {arXiv preprint arXiv:2210.00395},
+	doi = {10.48550/ARXIV.2210.00395},
+	url = {https://arxiv.org/abs/2210.00395},
+	arxiv = {2210.00395},
+	pdf = {https://arxiv.org/pdf/2210.00395.pdf},
 	author = {Li, Wentao and Chen, Han and Jiang, Xiaoqian and Harmanci, Arif},
+	keywords = {Methodology (stat.ME), Genomics (q-bio.GN), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Biological sciences, FOS: Biological sciences},
+	title = {Federated Generalized Linear Mixed Models for Collaborative Genome-wide Association Studies},
+	publisher = {arXiv},
 	year = {2022},
-	annote = {Federated Generalized Linear Mixed Models for Collaborative Genome-wide Association Studies},
+	copyright = {Creative Commons Attribution 4.0 International}
 }
 
 @article{wang_privacy-aware_2022-1,
-	title = {Privacy-{Aware} {Kinship} {Inference} in {Admixed} {Populations} using {Projection} on {Reference} {Panels}},
-	journal = {bioRxiv},
-	author = {Wang, Su and Kim, Miran and Li, Wentao and Jiang, Xiaoqian and Chen, Han and Harmanci, Arif Ozgun},
+	author = {Wang, Su and Kim, Miran and Li, Wentao and Jiang, Xiaoqian and Chen, Han and Harmanci, Arif},
+	title = {Privacy-Aware Kinship Inference in Admixed Populations using Projection on Reference Panels},
+	elocation-id = {2022.05.03.490348},
 	year = {2022},
-	note = {Publisher: Cold Spring Harbor Laboratory},
-	pages = {2022--05},
-	annote = {Privacy-Aware Kinship Inference in Admixed Populations using Projection on Reference Panels},
+	doi = {10.1101/2022.05.03.490348},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Estimation of genetic relatedness, or kinship, is used occasionally for recreational purposes and in forensic applications. While numerous methods were developed to estimate kinship, they suffer from high computational requirements and often make an untenable assumption of homogeneous population ancestry of the samples. Moreover, genetic privacy is generally overlooked in the usage of kinship estimation methods. There can be ethical concerns about finding unknown familial relationships in 3rd party databases. Similar ethical concerns may arise while estimating and reporting sensitive population-level statistics such as inbreeding coefficients for the concerns around marginalization and stigmatization. Here, we make use of existing reference panels with a projection-based approach that simplifies kinship estimation in the admixed populations. We use simulated and real datasets to demonstrate the accuracy and efficiency of kinship estimation. We present a secure federated kinship estimation framework and implement a secure kinship estimator using homomorphic encryption-based primitives for computing relatedness between samples in 2 different sites while genotype data is kept confidential.Competing Interest StatementThe authors have declared no competing interest.},
+	website = {https://www.biorxiv.org/content/early/2022/05/04/2022.05.03.490348},
+	pdf = {https://www.biorxiv.org/content/early/2022/05/04/2022.05.03.490348.full.pdf},
+	journal = {bioRxiv}
 }
 
 @article{kim_vertical_2021,
-	title = {{VERTIcal} {Grid} {lOgistic} regression with {Confidence} {Intervals} ({VERTIGO}-{CI})},
-	volume = {2021},
-	journal = {AMIA Summits on Translational Science Proceedings},
-	author = {Kim, Jihoon and Li, Wentao and Bath, Tyler and Jiang, Xiaoqian and Ohno-Machado, Lucila},
-	year = {2021},
-	note = {Publisher: American Medical Informatics Association},
-	pages = {355},
-	annote = {VERTIcal Grid lOgistic regression with Confidence Intervals (VERTIGO-CI)},
+	title    = "{VERTIcal} Grid lOgistic regression with Confidence Intervals
+				({VERTIGO-CI})",
+	author   = "Kim, Jihoon and Li, Wentao and Bath, Tyler and Jiang, Xiaoqian
+				and Ohno-Machado, Lucila",
+	abstract = "Federated learning of data from multiple participating parties is
+				getting more attention and has many healthcare applications. We
+				have previously developed VERTIGO, a distributed logistic
+				regression model for vertically partitioned data. The model takes
+				advantage of the linear separation property of kernel matrices of
+				a dual space model to harmonize information in a
+				privacy-preserving manner. However, this method does not handle
+				the variance estimation and only provides point estimates: it
+				cannot report test statistics and associated P-values. In this
+				work, we extend VERTIGO by introducing a novel ring-structure
+				protocol to pass on intermediary statistics among clients and
+				successfully reconstructed the covariance matrix in the dual
+				space. This extension, VERTIGO-CI, is a complete protocol to
+				construct a logistic regression model from vertically partitioned
+				datasets as if it is trained on combined data in a centralized
+				setting. We evaluated our results on synthetic and real data,
+				showing the equivalent accuracy and tolerable performance
+				overhead compared to the centralized version. This novel
+				extension can be applied to other types of generalized linear
+				models that have dual objectives.",
+	journal  = "AMIA Summits Transl. Sci. Proc.",
+	volume   =  2021,
+	pages    = "355--364",
+	month    =  may,
+	year     =  2021,
+	language = "en",
+	website = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8378611/},
+	pdf = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8378611/pdf/3478345.pdf},
+	PMID = {34457150},
+	PMCID = {PMC8378611},
+	selected = {true},
 }
 
