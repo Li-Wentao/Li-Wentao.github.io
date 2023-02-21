@@ -2,7 +2,7 @@
 layout: page
 title: Homelab
 description: Stack a server at home!
-img: assets/img/FL.png
+img: assets/img/server.jpeg
 importance: 1
 category: fun
 ---
