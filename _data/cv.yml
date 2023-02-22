@@ -58,7 +58,7 @@
 
     - title: Research Assistant
       institution: School of Medicine, UCSD, US
-      year: 2020 - 2021
+      year: 2019 - 2020
       description:
         - Developed two prediction models in R and Python (based on Logistic Regression) that can handle horizontally and vertically partitioned data, Grid Binary LOgistic REgression (GLORE) and VERTIcal Grid logistic regression (VERTIGO).
         - Proved and developed an algorithm that can transmit Confidence Intervals based on VERTIGO and published the method as VERTIGO-CI.
