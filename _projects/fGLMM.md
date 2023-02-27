@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy study 1
+title: fed-GLMM
 description: Developed a federated learning framework on GLMM
 img: assets/img/FL.png
 importance: 1

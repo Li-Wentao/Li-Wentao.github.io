@@ -44,6 +44,7 @@
       institution: School of Biomedical Informatics, UTHealth, US
       year: 2021 - present
       description:
+        # I am currently working as a research assistant at the Center for Secure Artificial intelligence For hEalthcare (SAFE) at the School of Biomedical Informatics, UTHealth. My research tracks include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption in Biomedical Informatics.
         - Developed and published a genetic algorithm for federated learning in the privacy-preserving genome-wide association studies (GWAS) using GLMMs.
         - Conducted federated Genomic Data Analysis evaluation experiments with OpenSNP dataset.
         - Developed a privacy federated learning genetic algorithm based on R package ‘Generalized linear Mixed Model Association Tests (GMMAT).
