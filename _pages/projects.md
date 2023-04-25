@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Build Something Cool
+description: Add a brick to the Tower of Human Welfare
 nav: true
-nav_order: 2
-display_categories: [work, fun]
+nav_order: 3
+display_categories: [work, posters, fun]
 horizontal: false
 ---
 

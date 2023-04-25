@@ -15,6 +15,16 @@ category: fun
 - Code-server
 - Pi-hole
 
+## Running services
+- EmulatorJS
+- Heimdall
+- Libre Speed
+- Pairdrop
+- Photoprism
+- Speedtest Tracker
+- Uptime Kuma
+- Watchtower
+
 ## Here is where cool thing starts
 <p align="center">
     <img src="/assets/img/server_013023.jpg"  width="90%" height="80%">

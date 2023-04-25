@@ -4,4 +4,4 @@ date: 2023-1-10
 inline: true
 ---
 
-Passed the PhD Qualifying Exam! Now being a PhD candidate.
+Passed the PhD Qualifying Exam!
