@@ -21,15 +21,18 @@
 }
 
 @misc{dervishi_facilitating_2022,
-  doi = {10.48550/ARXIV.2203.05664},
-  arxiv = {2203.05664},
-  pdf = {https://arxiv.org/pdf/2203.05664.pdf},
-  author = {Dervishi, Leonard and Wang, Xinyue and Li, Wentao and Halimi, Anisa and Vaidya, Jaideep and Jiang, Xiaoqian and Ayday, Erman},
-  keywords = {Cryptography and Security (cs.CR), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Facilitating Federated Genomic Data Analysis by Identifying Record Correlations while Ensuring Privacy},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license},
+  title={Facilitating federated genomic data analysis by identifying record correlations while ensuring privacy},
+  author={Dervishi, Leonard and Wang, Xinyue and Li, Wentao and Halimi, Anisa and Vaidya, Jaideep and Jiang, Xiaoqian and Ayday, Erman},
+  booktitle={AMIA Annual Symposium Proceedings},
+  volume={2022},
+  pages={395},
+  year={2022},
+  abstract={With the reduction of sequencing costs and the pervasiveness of computing devices, genomic data collection is continually growing. However, data collection is highly fragmented and the data is still siloed across different repositories. Analyzing all of this data would be transformative for genomics research. However, the data is sensitive, and therefore cannot be easily centralized. Furthermore, there may be correlations in the data, which if not detected, can impact the analysis. In this paper, we take the first step towards identifying correlated records across multiple data repositories in a privacy-preserving manner. The proposed framework, based on random shuffling, synthetic record generation, and local differential privacy, allows a trade-off of accuracy and computational efficiency. An extensive evaluation on real genomic data from the OpenSNP dataset shows that the proposed solution is efficient and effective.},
+  organization={American Medical Informatics Association},
+  selected = {false},
+  dimensions = {true},
+  website = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10148342/},
+  pdf = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10148342/pdf/777.pdf},
 }
 
 
@@ -100,17 +103,18 @@
 	altmetric = {true},
 }
 
-@article{li_federated_2022-1,
-	doi = {10.48550/ARXIV.2210.00395},
-	url = {https://arxiv.org/abs/2210.00395},
-	arxiv = {2210.00395},
-	pdf = {https://arxiv.org/pdf/2210.00395.pdf},
-	author = {Li, Wentao and Chen, Han and Jiang, Xiaoqian and Harmanci, Arif},
-	keywords = {Methodology (stat.ME), Genomics (q-bio.GN), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Biological sciences, FOS: Biological sciences},
-	title = {Federated Generalized Linear Mixed Models for Collaborative Genome-wide Association Studies},
-	publisher = {arXiv},
-	year = {2022},
-	copyright = {Creative Commons Attribution 4.0 International}
+@article{li2023federated,
+  title={Federated generalized linear mixed models for collaborative genome-wide association studies},
+  author={Li, Wentao and Chen, Han and Jiang, Xiaoqian and Harmanci, Arif},
+  journal={Iscience},
+  volume={26},
+  number={8},
+  year={2023},
+  abstract={Federated association testing is a powerful approach to conduct large-scale association studies where sites share intermediate statistics through a central server. There are, however, several standing challenges. Confounding factors like population stratiﬁcation should be carefully modeled across sites. In addition, it is crucial to consider disease etiology using ﬂexible models to prevent biases. Privacy protections for participants pose another signiﬁcant challenge. Here, we propose distributed Mixed Effects Genome-wide Association study (dMEGA), a method that enables federated generalized linear mixed model-based association testing across multiple sites without explicitly sharing genotype and phenotype data. dMEGA employs a reference projection to correct for population-stratiﬁcation and utilizes efﬁcient local-gradient updates among sites, incorporating both ﬁxed and random effects. The accuracy and efﬁciency of dMEGA are demonstrated through simulated and real datasets. dMEGA is publicly available at https://github.com/Li-Wentao/dMEGA.},
+  pdf={https://www.cell.com/iscience/pdf/S2589-0042(23)01304-4.pdf},
+  dimensions = {true},
+  altmetric = {true},
+  selected = {true}
 }
 
 @article{wang_privacy-aware_2022-1,
@@ -164,3 +168,16 @@
 	selected = {true},
 }
 
+@article{chu2023non,
+  title={Non-invasive arterial blood pressure measurement and SpO2 estimation using PPG signal: a deep learning framework},
+  author={Chu, Yan and Tang, Kaichen and Hsu, Yu-Chun and Huang, Tongtong and Wang, Dulin and Li, Wentao and Savitz, Sean I and Jiang, Xiaoqian and Shams, Shayan},
+  journal={BMC Medical Informatics and Decision Making},
+  volume={23},
+  number={1},
+  pages={1--16},
+  year={2023},
+  abstract={Monitoring blood pressure and peripheral capillary oxygen saturation plays a crucial role in healthcare management for patients with chronic diseases, especially hypertension and vascular disease. However, current blood pressure measurement methods have intrinsic limitations; for instance, arterial blood pressure is measured by inserting a catheter in the artery causing discomfort and infection.},
+  website={https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-023-02215-2},
+  dimensions = {true},
+  altmetric = {true},
+}

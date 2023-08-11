@@ -77,7 +77,7 @@
     #   items: 
     #     - Max Planck Medal
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Privacy-preserving machine learning
@@ -90,6 +90,9 @@
       items:
         - Generalized linear Mixed Model Association Tests
         - Kinship relationship estimation
+    - title: Medical imaging research
+      items:
+        - Multimodality imaging modeling (CT/PET/MRI)
 
 - title: Open Source Projects
   type: time_table
