@@ -7,8 +7,10 @@
     #   value: 14th March 1879
     - name: Languages
       value: English, Chinese
-    - name: Skills
+    - name: Programming
       value: Python (Pytorch, Tensorflow), R, JavaScript, Plink, Docker, MongoDB
+    - name: Skills
+      value: Machine Learning, Deep Learning, Genomic Studies, Medical Imaging Studies, Federated Learning, Privacy-preserving AI
     # - name: Research
     #   value: Privacy-preserving Machine Learning, Federated Learning, Differential Privacy, Secure Multi-party computation, Homomorphic Encryption
 
@@ -20,6 +22,7 @@
       year: 2021 - present
       description:
         - Dean’s Excellent Award 2021.
+        - Jingchun Sun Memorial Scholarship 2023.
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -34,15 +37,23 @@
       institution: Shanghai Maritime University, China
       year: 2014 - 2018
       description:
-        - Dean’s List of SMU (15%), 2016.
-        - First Class Scholarship of SMU (5%), 2017.
+        - Dean’s List of SMU, 2016.
+        - First Class Scholarship of SMU, 2017.
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Assistant
-      institution: School of Biomedical Informatics, UTHealth, US
-      year: 2021 - present
+      institution: The University of Texas MD Anderson Cancer Center, US
+      year: 2023 - present
+      description:
+        # I am currently working as a research assistant at the Center for Secure Artificial intelligence For hEalthcare (SAFE) at the School of Biomedical Informatics, UTHealth. My research tracks include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption in Biomedical Informatics.
+        - Multi-modality modeling for cancer research
+        - Pan-cancer study
+
+    - title: Research Assistant
+      institution: The University of Texas Health Science Center at Houston, US
+      year: 2021 - 2023
       description:
         # I am currently working as a research assistant at the Center for Secure Artificial intelligence For hEalthcare (SAFE) at the School of Biomedical Informatics, UTHealth. My research tracks include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption in Biomedical Informatics.
         - Developed and published a genetic algorithm for federated learning in the privacy-preserving genome-wide association studies (GWAS) using GLMMs.
@@ -50,7 +61,7 @@
         - Developed a privacy federated learning genetic algorithm based on R package ‘Generalized linear Mixed Model Association Tests (GMMAT).
     
     - title: Research intern
-      institution: School of Biomedical Informatics, UTHealth, US
+      institution: The University of Texas Health Science Center at Houston, US
       year: 2020
       description:
         - Developed and published a privacy federated learning method to approximate the intractable marginal log-likelihood function in the Generalized Linear Mixed Models (GLMMs) for cohort study.
@@ -58,7 +69,7 @@
         - Hosted federated training among Houston, San Diego, and Munich with previous published work VERIcal Grid logistic regression with Confidence Interval (VERTIGO-CI).
 
     - title: Research Assistant
-      institution: School of Medicine, UCSD, US
+      institution: University of California San Diego, US
       year: 2019 - 2020
       description:
         - Developed two prediction models in R and Python (based on Logistic Regression) that can handle horizontally and vertically partitioned data, Grid Binary LOgistic REgression (GLORE) and VERTIcal Grid logistic regression (VERTIGO).
