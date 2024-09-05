@@ -10,7 +10,7 @@
     - name: Programming
       value: Python (Pytorch, Tensorflow), R, JavaScript, Plink, Docker, MongoDB
     - name: Skills
-      value: Machine Learning, Deep Learning, Genomic Studies, Medical Imaging Studies, Federated Learning, Privacy-preserving AI
+      value: Machine Learning, Deep Learning, Foundation Modeling, Genomic Studies, Medical Imaging Studies, Federated Learning, Privacy-preserving AI
     # - name: Research
     #   value: Privacy-preserving Machine Learning, Federated Learning, Differential Privacy, Secure Multi-party computation, Homomorphic Encryption
 
@@ -21,8 +21,9 @@
       institution: University of Texas Health Science Center at Houston (UTHealth), US
       year: 2021 - present
       description:
-        - Dean’s Excellent Award 2021.
-        - Jingchun Sun Memorial Scholarship 2023.
+        - Dean’s Excellent Award 2021
+        - Jingchun Sun Memorial Scholarship 2023
+        - D.Bradley McWilliams Scholars Endowed Scholarship Award 2024
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -38,7 +39,7 @@
       year: 2014 - 2018
       description:
         - Dean’s List of SMU, 2016.
-        - First Class Scholarship of SMU, 2017.
+        - First Class Scholarship of SMU, 2017
 
 - title: Experience
   type: time_table
@@ -48,8 +49,9 @@
       year: 2023 - present
       description:
         # I am currently working as a research assistant at the Center for Secure Artificial intelligence For hEalthcare (SAFE) at the School of Biomedical Informatics, UTHealth. My research tracks include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption in Biomedical Informatics.
-        - Multi-modality modeling for cancer research
-        - Pan-cancer study
+        - Develop cross-modal attention fusion model integrating medical imaging and multi-omic data
+        - Design and deploy foundation model for chest CT scans
+        - Explore brain MRI and genomic association in psychological disorders
 
     - title: Research Assistant
       institution: The University of Texas Health Science Center at Houston, US
