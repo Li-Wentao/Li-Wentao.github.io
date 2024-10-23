@@ -85,7 +85,11 @@
     - title: AMIA 2021 Virtual Informatics Summit
       year: 2021
       items: 
-        - Presentation on published conference paper ‘VERTIcal Grid lOgistic regression with Confidence Interval’.
+        - Presentation on published conference paper "VERTIcal Grid lOgistic regression with Confidence Interval"
+    - title: ICCAI 2024 CMMCA Workshop
+      year: 2024
+      items: 
+        - Presentation on published conference paper "Attention-fusion Model for Multi-Omics (AMMO) Data Integration in Lung Adenocarcinoma"
     # - year: 2029
     #   items: 
     #     - Max Planck Medal
@@ -106,12 +110,13 @@
     - title: Medical imaging research
       items:
         - Multimodality imaging modeling (CT/PET/MRI)
+        - Chest CT foundation model
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/Li-Wentao/FedPlaform">Federated Learning Platform (FedPlatform) development</a>
-      year: 2022 - present
+      year: 2022 - 2024
       description: 
         - Developed a lightweight cross-silo federated learning platform based on the browser.
         - Embed a Python distribution on the browser to accomplish federated learning tasks. This lightweight system can free federated trainers from installing any dependencies.

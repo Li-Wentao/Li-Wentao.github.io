@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Literature Review of Federated Learning in Healthcare Informatics Research
+title: Literature Review of Federated Learning
 description: SBMI poster session in 2022
 img: /assets/img/LiteratureReviewPoster.png
 importance: 2

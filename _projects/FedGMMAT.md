@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Federated Generalized Linear Mixed Model Association Tests
+title: FedGMMAT
 description: SBMI poster session in 2022
 img: /assets/img/FedGMMAT.jpg
 importance: 2
