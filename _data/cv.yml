@@ -10,16 +10,16 @@
     - name: Programming
       value: Python (Pytorch, Tensorflow), R, JavaScript, Plink, Docker, MongoDB
     - name: Skills
-      value: Machine Learning, Deep Learning, Foundation Modeling, Genomic Studies, Medical Imaging Studies, Federated Learning, Privacy-preserving AI
+      value: Machine Learning, Deep Learning, Foundation Modeling, Genetic Imaging, Genomic Studies, Medical Imaging Studies, Federated Learning, Privacy-preserving AI
     # - name: Research
     #   value: Privacy-preserving Machine Learning, Federated Learning, Differential Privacy, Secure Multi-party computation, Homomorphic Encryption
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD candidate in Biomedical Informatics
+    - title: PhD in Biomedical Informatics
       institution: University of Texas Health Science Center at Houston (UTHealth), US
-      year: 2021 - present
+      year: 2021 - 2025 
       description:
         - Dean’s Excellent Award 2021
         - Jingchun Sun Memorial Scholarship 2023
@@ -48,44 +48,46 @@
       institution: The University of Texas MD Anderson Cancer Center, US
       year: 2023 - present
       description:
-        # I am currently working as a research assistant at the Center for Secure Artificial intelligence For hEalthcare (SAFE) at the School of Biomedical Informatics, UTHealth. My research tracks include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption in Biomedical Informatics.
-        - Develop cross-modal attention fusion model integrating medical imaging and multi-omic data
-        - Design and deploy foundation model for chest CT scans
-        - Explore brain MRI and genomic association in psychological disorders
+        - Developed a novel cross-modal attention fusion method to enhance predictive modeling in cancer studies.
+        - Performed survival analysis on lung cancer patients in immunotherapy and chemotherapy.
+        - Investigated brain regional interactions and genetic variant expressions with a novel approach that incorporates individualized brain patterns in genomic association analysis.
+    
+    - title: Machine Learning Scientist Intern
+      institution: Tempus AI, US
+      year: 2025
+      description:
+        - Developed a cell-type prediction model with foundation models on Spatial Transcriptomic data (VisiumHD), which enhanced the accuracy of cell-type identification in cancer research.
 
     - title: Research Assistant
       institution: The University of Texas Health Science Center at Houston, US
-      year: 2021 - 2023
+      year: 2020 - 2023
       description:
         # I am currently working as a research assistant at the Center for Secure Artificial intelligence For hEalthcare (SAFE) at the School of Biomedical Informatics, UTHealth. My research tracks include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption in Biomedical Informatics.
-        - Developed and published a genetic algorithm for federated learning in the privacy-preserving genome-wide association studies (GWAS) using GLMMs.
-        - Conducted federated Genomic Data Analysis evaluation experiments with OpenSNP dataset.
-        - Developed a privacy federated learning genetic algorithm based on R package ‘Generalized linear Mixed Model Association Tests (GMMAT).
+        - Developed COLLAGENE, a secure analysis tool offers a practical solution for privacy-preserving GWAS.
+        - Developed series of Federated Generalized Linear Mixed Models (FedGLMMs) for Genome-Wide Association Studies (GWAS).
+        - Developed a privacy-preserving federated learning method for cohort studies.
+        - Created a deep learning model to accurately predict blood pressure from photoplethysmogram (PPG) signals.
+        - Hosted federated training across Houston, San Diego, and Munich with VERTIGO-CI.
     
-    - title: Research intern
-      institution: The University of Texas Health Science Center at Houston, US
-      year: 2020
-      description:
-        - Developed and published a privacy federated learning method to approximate the intractable marginal log-likelihood function in the Generalized Linear Mixed Models (GLMMs) for cohort study.
-        - Conducted experiments in adding differential privacy to federated GLMMs.
-        - Hosted federated training among Houston, San Diego, and Munich with previous published work VERIcal Grid logistic regression with Confidence Interval (VERTIGO-CI).
-
     - title: Research Assistant
       institution: University of California San Diego, US
       year: 2019 - 2020
       description:
-        - Developed two prediction models in R and Python (based on Logistic Regression) that can handle horizontally and vertically partitioned data, Grid Binary LOgistic REgression (GLORE) and VERTIcal Grid logistic regression (VERTIGO).
-        - Proved and developed an algorithm that can transmit Confidence Intervals based on VERTIGO and published the method as VERTIGO-CI.
-        - Set up Dockers for the prediction models (VERTIGO with Confidence Intervals & GLORE) and then tested the capability of privacy-preserving prediction with data from Oklahoma, Texas, and San Diego.
-        - Cleaned correlated genetic data with Quality control (QC) procedure in Plink.
+        - Conducted mathematical proofs for calibration measurements and models in clinical prediction research
 
 - title: Seminars & Speaches
   type: time_table
   contents:
+    - title: International Symposium on Biomedical Imaging 2025 (ISBI 2025)
+      year: 2025
+      items: 
+        - Workshop host and committee member of the Glioma-MDC 2025 challenge – Detection and classification of mitotic cells in glioma from digital pathological images.
+ 
     - title: AMIA 2021 Virtual Informatics Summit
       year: 2021
       items: 
         - Presentation on published conference paper "VERTIcal Grid lOgistic regression with Confidence Interval"
+
     - title: MICCAI 2024 CMMCA Workshop
       year: 2024
       items: 
@@ -97,20 +99,24 @@
 - title: Research Interests
   type: nested_list
   contents:
+    - title: Medical imaging research
+      items:
+        - Multimodality imaging modeling (CT/PET/MRI)
+        - Chest CT foundation model
+    - title: Genetic imaging research
+      items:
+        - Spatial Transcriptomics
+        - Cross-modal attention fusion in multi-omics data integration     
+    - title: Genome-Wide Association Studies (GWAS)
+      items:
+        - Generalized linear Mixed Model Association Tests
+        - Kinship relationship estimation
     - title: Privacy-preserving machine learning
       items: 
         - Federated Learning
         - Differential Privacy
         - Secure Multi-party computation
         - Homomorphic Encryption
-    - title: Genome-Wide Association Studies (GWAS)
-      items:
-        - Generalized linear Mixed Model Association Tests
-        - Kinship relationship estimation
-    - title: Medical imaging research
-      items:
-        - Multimodality imaging modeling (CT/PET/MRI)
-        - Chest CT foundation model
 
 - title: Open Source Projects
   type: time_table
