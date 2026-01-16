@@ -22,8 +22,7 @@ social: true  # includes social icons at the bottom of the page
 **WELCOME** to my webpage! :wave:
 
 "*Success is not final, failure is not fatal: it is the courage to continue that counts.*" --- Winston Churchill, 1946
-<!-- 
->:loudspeaker: I am on the lookout for an **AWESOME** __Machine Learning Scientist__ position where I can bring my passion for ***privacy-preserving AI*** and ***medical imaging*** to life! -->
+
 
 <!-- My name is Wentao (文韬 in Chinese), and I go by Winston. I am currently a PhD candidate and research assistant in the School of Biomedical Informatics at the University of Texas Health Science Center at Houston (UTHealth), expecting to graduate by December 2025. I am actively seeking research scientist positions where I can contribute to advancing privacy-preserving machine learning, genetic imaging, and medical imaging research. -->
 
